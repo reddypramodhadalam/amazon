@@ -200,3 +200,54 @@ public class BasePage {
         return System.getProperty("user.dir") + File.separator + "reports" + File.separator + stepName + ".png";
     }
 }
+
+
+
+
+package com.tests;
+
+import java.io.IOException;
+import java.time.Duration;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import com.pages.LoginPage;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class BaseTest {
+    private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+
+    public static WebDriver getDriver() {
+        return driver.get();
+    }
+
+    public static void setDriver(WebDriver driverInstance) {
+        driver.set(driverInstance);
+    }
+
+    public void initializeDriver() throws IOException {
+        WebDriverManager.chromedriver().setup();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--start-maximized");
+        WebDriver webDriver = new ChromeDriver(options);
+        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        setDriver(webDriver);
+    }
+
+    @BeforeMethod(alwaysRun = true)
+    public LoginPage launchBrowser() throws IOException {
+        initializeDriver();
+        LoginPage lp = new LoginPage();
+        lp.goTo();
+        return lp;
+    }
+
+    @AfterMethod(alwaysRun = true)
+    public void tearDown() {
+        WebDriver driverInstance = getDriver();
+        if (driverInstance != null)
+                }
+    }
+}
