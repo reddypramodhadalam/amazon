@@ -206,18 +206,38 @@ public class BasePage {
 
 package com.tests;
 
+import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import com.pages.LoginPage;
+import com.utils.TestData;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+/*
+ * Developed by Baxter @Webtestops
+ * Resource Name - Reddy Pramodh
+ * Date: 11th March 2024
+ * Last Code Checkin - 11th March 2024
+ * This is Baxter Proprietary Framework - Don't use without any permissions
+ * Modified By - Reddy Pramodh
+ */
+
 public class BaseTest {
+    public static String environment = System.getProperty("environment");
+    public static String browserName = System.getProperty("browser");
+    TestData td = new TestData();
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+    public LoginPage lp;
 
     public static WebDriver getDriver() {
         return driver.get();
@@ -228,18 +248,44 @@ public class BaseTest {
     }
 
     public void initializeDriver() throws IOException {
-        WebDriverManager.chromedriver().setup();
-        ChromeOptions options = new ChromeOptions();
-        options.addArguments("--start-maximized");
-        WebDriver webDriver = new ChromeDriver(options);
+        WebDriver webDriver = null;
+
+        // Initialize WebDriver based on the specified browser
+        if (browserName.equalsIgnoreCase("chrome")) {
+            ChromeOptions options = new ChromeOptions();
+            WebDriverManager.chromedriver().setup();
+            if (browserName.contains("headless")) {
+                options.addArguments("--headless");
+            }
+            webDriver = new ChromeDriver(options);
+        } else if (browserName.equalsIgnoreCase("firefox")) {
+            WebDriverManager.firefoxdriver().setup();
+            webDriver = new FirefoxDriver();
+        } else if (browserName.equalsIgnoreCase("edge")) {
+            WebDriverManager.edgedriver().setup();
+            webDriver = new EdgeDriver();
+        } else {
+            throw new IllegalArgumentException("Browser not supported: " + browserName);
+        }
+
+        // Set implicit wait and maximize window
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        webDriver.manage().window().maximize();
         setDriver(webDriver);
+    }
+
+    public String getScreenshot(String testCaseName) throws IOException {
+        TakesScreenshot ts = (TakesScreenshot) getDriver();
+        File source = ts.getScreenshotAs(OutputType.FILE);
+        String screenshotPath = System.getProperty("user.dir") + File.separator + "reports" + File.separator + testCaseName + ".png";
+        FileUtils.copyFile(source, new File(screenshotPath));
+        return screenshotPath;
     }
 
     @BeforeMethod(alwaysRun = true)
     public LoginPage launchBrowser() throws IOException {
         initializeDriver();
-        LoginPage lp = new LoginPage();
+        lp = new LoginPage();
         lp.goTo();
         return lp;
     }
@@ -247,7 +293,9 @@ public class BaseTest {
     @AfterMethod(alwaysRun = true)
     public void tearDown() {
         WebDriver driverInstance = getDriver();
-        if (driverInstance != null)
-                }
+        if (driverInstance != null) {
+            driverInstance.quit();
+            driver.remove(); // Clean up ThreadLocal variable
+        }
     }
 }
