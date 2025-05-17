@@ -1,0 +1,463 @@
+{
+  "scenarioName": "Naukri Register",
+  "url": "https://e1hrpdnosso.aws.baxter.com/jde/E1Menu.maf",
+  "actions": [
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "User",
+      "timestamp": 1747484227694,
+      "type": "input",
+      "value": "JDTest011",
+      "xpath": "//*[@id=\"User\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "Password",
+      "timestamp": 1747484232123,
+      "type": "click",
+      "xpath": "//*[@id=\"Password\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "Password",
+      "timestamp": 1747484233394,
+      "type": "input",
+      "value": "%Ck80X?UqO|1!11!",
+      "xpath": "//*[@id=\"Password\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "buttonstylenormal margin-top5",
+      "timestamp": 1747484233490,
+      "type": "click",
+      "xpath": "/html/body/div/table/tbody/tr[2]/td/form/table/tbody/tr/td/div/table/tbody/tr/td/table/tbody/tr[4]/td[2]/input",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "drop_mainmenu",
+      "timestamp": 1747484242844,
+      "type": "click",
+      "xpath": "//*[@id=\"drop_mainmenu\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "",
+      "timestamp": 1747484245670,
+      "type": "click",
+      "xpath": "/html/body/div[3]/div/div[2]/div[3]/div/div[2]/div[4]/div/div[2]/div[2]/div[4]/div/table/tbody/tr/td[4]/table/tbody/tr/td",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "",
+      "timestamp": 1747484252253,
+      "type": "click",
+      "xpath": "/html/body/div[10]/table/tbody/tr/td/div/div[27]/div/table/tbody/tr/td[4]/table/tbody/tr/td",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "fldnode572178",
+      "timestamp": 1747484253813,
+      "type": "click",
+      "xpath": "//*[@id=\"fldnode572178\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "fldnode572191",
+      "timestamp": 1747484257934,
+      "type": "click",
+      "xpath": "//*[@id=\"fldnode572191\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "fldnode572256",
+      "timestamp": 1747484259944,
+      "type": "click",
+      "xpath": "//*[@id=\"fldnode572256\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [
+        0
+      ],
+      "iFrame": "//*[@id=\"e1menuAppIframe\"]",
+      "name": "hc_Add",
+      "timestamp": 1747484266958,
+      "type": "click",
+      "xpath": "//*[@id=\"hc_Add\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "menutitle_hidden",
+      "timestamp": 1747484266968,
+      "type": "click",
+      "xpath": "//*[@id=\"menutitle_hidden\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "menutitle_hidden",
+      "timestamp": 1747484275753,
+      "type": "click",
+      "xpath": "//*[@id=\"menutitle_hidden\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [
+        0
+      ],
+      "iFrame": "//*[@id=\"e1menuAppIframe\"]",
+      "name": "0_460",
+      "timestamp": 1747484276853,
+      "type": "input",
+      "value": "7635783",
+      "xpath": "//*[@id=\"C0_460\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "menutitle_hidden",
+      "timestamp": 1747484276922,
+      "type": "click",
+      "xpath": "//*[@id=\"menutitle_hidden\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "menutitle_hidden",
+      "timestamp": 1747484279759,
+      "type": "click",
+      "xpath": "//*[@id=\"menutitle_hidden\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "menutitle_hidden",
+      "timestamp": 1747484280476,
+      "type": "click",
+      "xpath": "//*[@id=\"menutitle_hidden\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [
+        0
+      ],
+      "iFrame": "//*[@id=\"e1menuAppIframe\"]",
+      "name": "0_92",
+      "timestamp": 1747484285204,
+      "type": "input",
+      "value": "12232345",
+      "xpath": "//*[@id=\"C0_92\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "menutitle_hidden",
+      "timestamp": 1747484292099,
+      "type": "click",
+      "xpath": "//*[@id=\"menutitle_hidden\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [
+        0
+      ],
+      "iFrame": "//*[@id=\"e1menuAppIframe\"]",
+      "name": "0_78",
+      "timestamp": 1747484294711,
+      "type": "input",
+      "value": "OH",
+      "xpath": "//*[@id=\"C0_78\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "menutitle_hidden",
+      "timestamp": 1747484294779,
+      "type": "click",
+      "xpath": "//*[@id=\"menutitle_hidden\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "menutitle_hidden",
+      "timestamp": 1747484298076,
+      "type": "click",
+      "xpath": "//*[@id=\"menutitle_hidden\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [
+        0
+      ],
+      "iFrame": "//*[@id=\"e1menuAppIframe\"]",
+      "name": "0_86",
+      "timestamp": 1747484300038,
+      "type": "input",
+      "value": "PO",
+      "xpath": "//*[@id=\"C0_86\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "menutitle_hidden",
+      "timestamp": 1747484300080,
+      "type": "click",
+      "xpath": "//*[@id=\"menutitle_hidden\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "menutitle_hidden",
+      "timestamp": 1747484301605,
+      "type": "click",
+      "xpath": "//*[@id=\"menutitle_hidden\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "menutitle_hidden",
+      "timestamp": 1747484309923,
+      "type": "click",
+      "xpath": "//*[@id=\"menutitle_hidden\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [
+        0
+      ],
+      "iFrame": "//*[@id=\"e1menuAppIframe\"]",
+      "name": "hc_OK",
+      "timestamp": 1747484314244,
+      "type": "click",
+      "xpath": "//*[@id=\"hc_OK\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "menutitle_hidden",
+      "timestamp": 1747484314249,
+      "type": "click",
+      "xpath": "//*[@id=\"menutitle_hidden\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [
+        0
+      ],
+      "iFrame": "//*[@id=\"e1menuAppIframe\"]",
+      "name": "",
+      "timestamp": 1747484321497,
+      "type": "click",
+      "xpath": "/html/body/form[3]/table[2]/tbody/tr/td/table/tbody/tr/td[5]/table/tbody/tr/td[2]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "menutitle_hidden",
+      "timestamp": 1747484321502,
+      "type": "click",
+      "xpath": "//*[@id=\"menutitle_hidden\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [
+        0
+      ],
+      "iFrame": "//*[@id=\"e1menuAppIframe\"]",
+      "name": "",
+      "timestamp": 1747484322966,
+      "type": "click",
+      "xpath": "/html/body/form[3]/table[2]/tbody/tr/td/table/tbody/tr/td[5]/div/table/tbody/tr/td/div[9]/table/tbody/tr/td[2]/span/nobr",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "menutitle_hidden",
+      "timestamp": 1747484322970,
+      "type": "click",
+      "xpath": "//*[@id=\"menutitle_hidden\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [
+        0
+      ],
+      "iFrame": "//*[@id=\"e1menuAppIframe\"]",
+      "name": "WebLabel",
+      "timestamp": 1747484329844,
+      "type": "click",
+      "xpath": "/html/body/form[2]/table[2]/tbody/tr/td/table/tbody/tr/td[13]/table/tbody/tr/td[3]/a/div",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "menutitle_hidden",
+      "timestamp": 1747484332994,
+      "type": "click",
+      "xpath": "//*[@id=\"menutitle_hidden\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [
+        0
+      ],
+      "iFrame": "//*[@id=\"e1menuAppIframe\"]",
+      "name": "qbe0_1.0",
+      "timestamp": 1747484337401,
+      "type": "input",
+      "value": "CS*",
+      "xpath": "/html/body/form[3]/div/table/tbody/tr/td/div/span[2]/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr/td/div/table/tbody/tr/td[2]/div/nobr/input",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [
+        0
+      ],
+      "iFrame": "//*[@id=\"e1menuAppIframe\"]",
+      "name": "hc_Find",
+      "timestamp": 1747484337482,
+      "type": "click",
+      "xpath": "//*[@id=\"hc_Find\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "menutitle_hidden",
+      "timestamp": 1747484337488,
+      "type": "click",
+      "xpath": "//*[@id=\"menutitle_hidden\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "menutitle_hidden",
+      "timestamp": 1747484340040,
+      "type": "click",
+      "xpath": "//*[@id=\"menutitle_hidden\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [
+        0
+      ],
+      "iFrame": "//*[@id=\"e1menuAppIframe\"]",
+      "name": "grs0_1",
+      "timestamp": 1747484343126,
+      "type": "input",
+      "value": "on",
+      "xpath": "/html/body/form[3]/div/table/tbody/tr/td/div/span[2]/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr[2]/td/div/table/tbody/tr/td[2]/table/tbody/tr[3]/td/table/tbody/tr/td/div/input",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [
+        0
+      ],
+      "iFrame": "//*[@id=\"e1menuAppIframe\"]",
+      "name": "hc_Select",
+      "timestamp": 1747484350272,
+      "type": "click",
+      "xpath": "//*[@id=\"hc_Select\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "menutitle_hidden",
+      "timestamp": 1747484350279,
+      "type": "click",
+      "xpath": "//*[@id=\"menutitle_hidden\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [
+        0
+      ],
+      "iFrame": "//*[@id=\"e1menuAppIframe\"]",
+      "name": "BUTTONSAVEEXIT",
+      "timestamp": 1747484352623,
+      "type": "click",
+      "xpath": "//*[@id=\"BUTTONSAVEEXIT\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [
+        0
+      ],
+      "iFrame": "//*[@id=\"e1menuAppIframe\"]",
+      "name": "hc_OK",
+      "timestamp": 1747484363476,
+      "type": "click",
+      "xpath": "//*[@id=\"hc_OK\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [],
+      "iFrame": "",
+      "name": "menutitle_hidden",
+      "timestamp": 1747484363480,
+      "type": "click",
+      "xpath": "//*[@id=\"menutitle_hidden\"]",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [
+        0
+      ],
+      "iFrame": "//*[@id=\"e1menuAppIframe\"]",
+      "name": "JSTextfield",
+      "timestamp": 1747484368760,
+      "type": "input",
+      "value": "2",
+      "xpath": "/html/body/form[3]/div/table/tbody/tr/td/div/span[23]/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr[2]/td/div/table/tbody/tr/td[2]/table/tbody/tr/td/table/tbody/tr/td[3]/div/input",
+      "xpathIndex": 0
+    },
+    {
+      "frameIndexes": [
+        0
+      ],
+      "iFrame": "//*[@id=\"e1menuAppIframe\"]",
+      "name": "JSTextfield autosuggesttextfield",
+      "timestamp": 1747484375202,
+      "type": "click",
+      "xpath": "/html/body/form[3]/div/table/tbody/tr/td/div/span[23]/table/tbody/tr[2]/td/table/tbody/tr/td/table/tbody/tr[2]/td/div/table/tbody/tr/td[2]/table/tbody/tr/td/table/tbody/tr/td[7]/div/input",
+      "xpathIndex": 0
+    }
+  ],
+}
