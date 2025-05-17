@@ -1,0 +1,227 @@
+{
+  "actions": [
+    {
+      "name": "username",
+      "timestamp": 1747390010266,
+      "type": "input",
+      "value": "ADALAMR",
+      "xpath": "//*[@id=\"username\"]"
+    },
+    {
+      "name": "password",
+      "timestamp": 1747390015522,
+      "type": "input",
+      "value": "XABter^849828rsm",
+      "xpath": "//*[@id=\"password\"]"
+    },
+    {
+      "name": "loginbtn",
+      "timestamp": 1747390015603,
+      "type": "button",
+      "xpath": "//*[@id=\"loginbtn\"]"
+    },
+    {
+      "name": "btn2 btn-warning",
+      "timestamp": 1747390034578,
+      "type": "click",
+      "xpath": "//*[@id=\"content\"]/nav/div/div[3]/div/span/span/a"
+    },
+    {
+      "name": "issueTitle",
+      "timestamp": 1747390046048,
+      "type": "click",
+      "xpath": "//*[@id=\"issueTitle\"]"
+    },
+    {
+      "name": "issueTitle",
+      "timestamp": 1747390051232,
+      "type": "input",
+      "value": "sfdsscvcxxfbdf",
+      "xpath": "//*[@id=\"issueTitle\"]"
+    },
+    {
+      "name": "",
+      "timestamp": 1747390051338,
+      "type": "click",
+      "xpath": "//*[@id=\"2174-selectable\"]/span"
+    },
+    {
+      "name": "issueConfirmationDate",
+      "timestamp": 1747390054489,
+      "type": "click",
+      "xpath": "//*[@id=\"issueConfirmationDate\"]"
+    },
+    {
+      "name": "ui-state-default ui-state-highlight ui-state-hover",
+      "timestamp": 1747390055670,
+      "type": "click",
+      "xpath": "//*[@id=\"ui-datepicker-div\"]/table/tbody/tr[3]/td[6]/a"
+    },
+    {
+      "name": "glyphicon glyphicon-plus",
+      "timestamp": 1747390060961,
+      "type": "click",
+      "xpath": "//*[@id=\"addRowIdDoc\"]/span"
+    },
+    {
+      "name": "relatedDocsList[0].documentType",
+      "timestamp": 1747390062167,
+      "type": "click",
+      "xpath": "//*[@id=\"docType_0\"]"
+    },
+    {
+      "name": "relatedDocsList[0].documentNumber",
+      "timestamp": 1747390064815,
+      "type": "click",
+      "xpath": "//*[@id=\"docNo_0\"]"
+    },
+    {
+      "name": "relatedDocsList[0].documentNumber",
+      "timestamp": 1747390067051,
+      "type": "input",
+      "value": "dfsdfsdfsdfds",
+      "xpath": "//*[@id=\"docNo_0\"]"
+    },
+    {
+      "name": "scrollbx",
+      "timestamp": 1747390068838,
+      "type": "click",
+      "xpath": "//*[@id=\"relatedTable\"]/div[3]"
+    },
+    {
+      "name": "scrollbx",
+      "timestamp": 1747390072046,
+      "type": "click",
+      "xpath": "//*[@id=\"relatedTable\"]/div[3]"
+    },
+    {
+      "name": "scrollbx",
+      "timestamp": 1747390087792,
+      "type": "click",
+      "xpath": "//*[@id=\"relatedTable\"]/div[3]"
+    },
+    {
+      "name": "supplierInitAction",
+      "timestamp": 1747390089510,
+      "type": "click",
+      "xpath": "//*[@id=\"supplierInitAction\"]"
+    },
+    {
+      "name": "",
+      "timestamp": 1747390095080,
+      "type": "click",
+      "xpath": "//*[@id=\"77866593-selectable\"]/span"
+    },
+    {
+      "name": "",
+      "timestamp": 1747390097507,
+      "type": "click",
+      "xpath": "//*[@id=\"-2028086202-selectable\"]/span"
+    },
+    {
+      "name": "division",
+      "timestamp": 1747390098953,
+      "type": "click",
+      "xpath": "//*[@id=\"division\"]"
+    },
+    {
+      "name": "",
+      "timestamp": 1747390103513,
+      "type": "click",
+      "xpath": "//*[@id=\"2181272-selectable\"]/span"
+    },
+    {
+      "name": "faAssesmentOwnerInput",
+      "timestamp": 1747390107827,
+      "type": "click",
+      "xpath": "//*[@id=\"faAssesmentOwnerInput\"]"
+    },
+    {
+      "name": "faAssesmentOwnerInput",
+      "timestamp": 1747390113402,
+      "type": "input",
+      "value": "paturu",
+      "xpath": "//*[@id=\"faAssesmentOwnerInput\"]"
+    },
+    {
+      "name": "-791047907-selectable",
+      "timestamp": 1747390113455,
+      "type": "click",
+      "xpath": "//*[@id=\"-791047907-selectable\"]"
+    },
+    {
+      "name": "issueCategory",
+      "timestamp": 1747390115758,
+      "type": "click",
+      "xpath": "//*[@id=\"issueCategory\"]"
+    },
+    {
+      "name": "issueSubCategory",
+      "timestamp": 1747390118084,
+      "type": "click",
+      "xpath": "//*[@id=\"issueSubCategory\"]"
+    },
+    {
+      "name": "submit_details",
+      "timestamp": 1747390122382,
+      "type": "click",
+      "xpath": "//*[@id=\"submit_details\"]"
+    },
+    {
+      "name": "mandatoryBtnNo",
+      "timestamp": 1747390123863,
+      "type": "button",
+      "xpath": "//*[@id=\"mandatoryBtnNo\"]"
+    },
+    {
+      "name": "descIssueAndPotentialImpact",
+      "timestamp": 1747390126726,
+      "type": "click",
+      "xpath": "//*[@id=\"descIssueAndPotentialImpact\"]"
+    },
+    {
+      "name": "submit_details",
+      "timestamp": 1747390129836,
+      "type": "click",
+      "xpath": "//*[@id=\"submit_details\"]"
+    },
+    {
+      "name": "esignPerson",
+      "timestamp": 1747390131111,
+      "type": "click",
+      "xpath": "//*[@id=\"esignPerson\"]"
+    },
+    {
+      "name": "esignPerson",
+      "timestamp": 1747390137027,
+      "type": "input",
+      "value": "XABter^849828rsm",
+      "xpath": "//*[@id=\"esignPerson\"]"
+    },
+    {
+      "name": "signatureBtnYes",
+      "timestamp": 1747390137109,
+      "type": "button",
+      "xpath": "//*[@id=\"signatureBtnYes\"]"
+    },
+    {
+      "name": "toastclose",
+      "timestamp": 1747390173025,
+      "type": "button",
+      "xpath": "//*[@id=\"toastclose\"]"
+    },
+    {
+      "name": "profile",
+      "timestamp": 1747390174151,
+      "type": "click",
+      "xpath": "//*[@id=\"profile\"]"
+    },
+    {
+      "name": "Logout",
+      "timestamp": 1747390175126,
+      "type": "click",
+      "xpath": "//*[@id=\"logoutDropdown\"]/a"
+    }
+  ],
+  "url": "https://test-fas.aws.baxter.com/fas/login#!"
+}
