@@ -1,0 +1,76 @@
+{
+  "scenarioName": "Naukri Register",
+  "url": "https://www.naukri.com/",
+  "actions": [
+    {
+      "name": "register_Layer",
+      "timestamp": 1747484308121,
+      "type": "click",
+      "xpath": "//*[@id=\"register_Layer\"]"
+    },
+    {
+      "name": "name",
+      "timestamp": 1747484309706,
+      "type": "click",
+      "xpath": "//*[@id=\"name\"]"
+    },
+    {
+      "name": "name",
+      "timestamp": 1747484312560,
+      "type": "input",
+      "value": "ytweytwieyw",
+      "xpath": "//*[@id=\"name\"]"
+    },
+    {
+      "name": "email",
+      "timestamp": 1747484312655,
+      "type": "click",
+      "xpath": "//*[@id=\"email\"]"
+    },
+    {
+      "name": "email",
+      "timestamp": 1747484319480,
+      "type": "input",
+      "value": "eutrewiuryweuye@test.com",
+      "xpath": "//*[@id=\"email\"]"
+    },
+    {
+      "name": "password",
+      "timestamp": 1747484319578,
+      "type": "click",
+      "xpath": "//*[@id=\"password\"]"
+    },
+    {
+      "name": "password",
+      "timestamp": 1747484323094,
+      "type": "input",
+      "value": "ytriuweyroiew",
+      "xpath": "//*[@id=\"password\"]"
+    },
+    {
+      "name": "mobile",
+      "timestamp": 1747484323198,
+      "type": "click",
+      "xpath": "//*[@id=\"mobile\"]"
+    },
+    {
+      "name": "mobile",
+      "timestamp": 1747484331475,
+      "type": "input",
+      "value": "9088879345",
+      "xpath": "//*[@id=\"mobile\"]"
+    },
+    {
+      "name": "main-2",
+      "timestamp": 1747484331556,
+      "type": "click",
+      "xpath": "//*[@id=\"root\"]/div/div/div[2]/div/div/div/form/div[2]/div[4]/div[2]/div[2]/div[2]/p"
+    },
+    {
+      "name": "submitbtn resman-btn-primary resman-btn-regular",
+      "timestamp": 1747484337540,
+      "type": "button",
+      "xpath": "//*[@id=\"root\"]/div/div/div[2]/div/div/div/form/div[2]/div[7]/button"
+    }
+  ]
+}
