@@ -297,5 +297,77 @@ public class BaseTest {
             driverInstance.quit();
             driver.remove(); // Clean up ThreadLocal variable
         }
+
+
+        Here's a prompt for Copilot to create a PowerPoint presentation positioning your BDD Test Generator as an alternative to the licensed Algo QA tool:
+
+```
+Create a 6-slide PowerPoint presentation about a Chrome extension called "BDD Test Generator" that serves as an open-source alternative to the licensed Algo QA tool, with the following structure:
+
+Slide 1: Title Slide
+- Title: BDD Test Generator Chrome Extension
+- Subtitle: A Cost-Effective Alternative to Algo QA for Automated Test Generation
+- Include visuals suggesting cost savings and automation testing
+
+Slide 2: Market Challenge
+- Title: The Testing Automation Challenge
+- Bullet points describing the current market situation:
+  - Licensed tools like Algo QA are expensive with per-user licensing costs
+  - Organizations need cost-effective testing solutions without compromising quality
+  - Technical barriers limit test automation adoption across teams
+  - Maintaining test scripts requires specialized knowledge
+  - Integration with existing frameworks is often complex
+
+Slide 3: Our Solution
+- Title: BDD Test Generator: The Open Alternative
+- Describe how the Chrome extension provides similar functionality to Algo QA:
+  - Records user interactions in real-time just like premium tools
+  - Generates industry-standard Gherkin feature files compatible with any BDD framework
+  - Creates ready-to-use Java step definitions that work with existing test infrastructure
+  - Supports all common interaction types: navigation, clicks, inputs, dropdowns, checkboxes, radio buttons, and calendar date selections
+  - No licensing fees or user limits
+
+Slide 4: Feature Comparison
+- Title: Feature Comparison
+- Create a comparison table between BDD Test Generator and Algo QA:
+  | Feature                      | BDD Test Generator | Algo QA |
+  |-----------------------------|-------------------|---------|
+  | Real-time recording         | ✓                | ✓       |
+  | Gherkin generation          | ✓                | ✓       |
+  | Java code generation        | ✓                | ✓       |
+  | Smart element detection     | ✓                | ✓       |
+  | Calendar handling           | ✓                | ✓       |
+  | Credential field handling   | ✓                | ✓       |
+  | Cost                        | Free             | Licensed|
+  | User limits                 | None             | Per user|
+  | Installation                | Simple           | Complex |
+  | Customization               | Open source      | Limited |
+
+Slide 5: Implementation Benefits
+- Title: Implementation Benefits
+- Bullet points highlighting advantages over Algo QA:
+  - Zero licensing costs for unlimited users
+  - Simple browser-based installation with no server setup
+  - Seamless integration with existing Cucumber/Selenium frameworks
+  - Full access to source code for customization
+  - Community-driven development and support
+  - No vendor lock-in
+  - Lightweight with minimal resource requirements
+
+Slide 6: Getting Started
+- Title: Getting Started Today
+- Simple steps to implement:
+  1. Install the BDD Test Generator Chrome extension
+  2. Record your test scenarios with a single click
+  3. Export Gherkin and Java code
+  4. Integrate with your existing test framework
+  5. Run tests and enjoy the cost savings
+- Call to action: "Start automating your tests today without the licensing costs"
+- Contact information for support and customization
+
+Please create this presentation with a professional design, appropriate visuals, and animations. Use a color scheme that suggests innovation and cost-effectiveness.
+```
+
+This prompt positions your BDD Test Generator as a cost-effective, open-source alternative to the licensed Algo QA tool, highlighting the similar functionality but without the licensing costs and restrictions. The presentation focuses on the value proposition of your extension compared to a commercial product, emphasizing the cost savings and flexibility benefits.
     }
 }
